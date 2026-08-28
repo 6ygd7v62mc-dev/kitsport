@@ -1,1 +1,27 @@
-# kitsport 
+# kitsport // קטלוג מוצרים - קבוצות בדיוניות בלבד (למניעת בעיות זכויות יוצרים על סמלים/מותגים אמיתיים)
+const PRODUCTS = [
+  { id: 1, team: "אטלס יונייטד", kit: "בית", color1: "#1D4ED8", color2: "#FFFFFF", price: 249 },
+  { id: 2, team: "אטלס יונייטד", kit: "חוץ", color1: "#111111", color2: "#1D4ED8", price: 249 },
+  { id: 3, team: "נורת'סייד", kit: "בית", color1: "#DC2626", color2: "#FFFFFF", price: 259 },
+  { id: 4, team: "נורת'סייד", kit: "חוץ", color1: "#F59E0B", color2: "#111111", price: 259 },
+  { id: 5, team: "קוסטל רוברס", kit: "בית", color1: "#059669", color2: "#FFFFFF", price: 239 },
+  { id: 6, team: "קוסטל רוברס", kit: "שלישית", color1: "#FDE047", color2: "#059669", price: 229 },
+  { id: 7, team: "מרידיאן FC", kit: "בית", color1: "#7C3AED", color2: "#FFFFFF", price: 269 },
+  { id: 8, team: "מרידיאן FC", kit: "חוץ", color1: "#FFFFFF", color2: "#7C3AED", price: 269 },
+  { id: 9, team: "איירון ולי", kit: "בית", color1: "#374151", color2: "#DC2626", price: 249 },
+  { id: 10, team: "איירון ולי", kit: "חוץ", color1: "#F3F4F6", color2: "#374151", price: 249 },
+  { id: 11, team: "סאות'פורט", kit: "בית", color1: "#0EA5E9", color2: "#FFFFFF", price: 239 },
+  { id: 12, team: "סאות'פורט", kit: "חוץ", color1: "#111111", color2: "#0EA5E9", price: 239 },
+  { id: 13, team: "רויאל האריירס", kit: "בית", color1: "#B91C1C", color2: "#111111", price: 279 },
+  { id: 14, team: "רויאל האריירס", kit: "שלישית", color1: "#111111", color2: "#B91C1C", price: 259 },
+  { id: 15, team: "פיוניר טאון", kit: "בית", color1: "#EA580C", color2: "#FFFFFF", price: 229 },
+  { id: 16, team: "פיוניר טאון", kit: "חוץ", color1: "#1E293B", color2: "#EA580C", price: 229 },
+  { id: 17, team: "וסטגייט", kit: "בית", color1: "#16A34A", color2: "#111111", price: 249 },
+  { id: 18, team: "וסטגייט", kit: "חוץ", color1: "#FFFFFF", color2: "#16A34A", price: 249 },
+  { id: 19, team: "האמבורי", kit: "בית", color1: "#2563EB", color2: "#FDE047", price: 259 },
+  { id: 20, team: "האמבורי", kit: "חוץ", color1: "#FDE047", color2: "#2563EB", price: 259 },
+  { id: 21, team: "יוניון ברידג'", kit: "בית", color1: "#9D174D", color2: "#FFFFFF", price: 239 },
+  { id: 22, team: "יוניון ברידג'", kit: "חוץ", color1: "#111111", color2: "#9D174D", price: 239 },
+  { id: 23, team: "לייקסייד", kit: "בית", color1: "#0891B2", color2: "#FFFFFF", price: 229 },
+  { id: 24, team: "לייקסייד", kit: "חוץ", color1: "#FFFFFF", color2: "#0891B2", price: 229 }
+];
